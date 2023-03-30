@@ -1,0 +1,164 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMloYsC8204DkQSFXWfqiyi",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/lviniciuz/Aula-Junio/blob/main/AULA%2030/03%20Pablo\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1GR-yvk0lxKS",
+        "outputId": "fb139560-0ab1-40a4-d8bb-19427a4303b4"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n",
+            "True\n",
+            "False\n",
+            "True\n",
+            "False\n",
+            "True\n"
+          ]
+        }
+      ],
+      "source": [
+        "#resolução dos exercicioszinhos\n",
+        "print(100 == (50+50))\n",
+        "print(100 >= (50+50))\n",
+        "print(100 > (50+50))\n",
+        "print(100 <= (50+50))\n",
+        "print(100 != (50+50))\n",
+        "print(100 != 99)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#se a idade for maior que 16, exib a: pode tirar habilitação\n",
+        "idade = int(input('Digite idade: '))\n",
+        "if(idade >= 16):\n",
+        "  print('Pode tirar habilitação!')\n",
+        "else:\n",
+        "  print('Ainda não, filé!')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WD2wnr9PpSDP",
+        "outputId": "be74ccfb-7861-4a91-c189-39ee76c8fbc4"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite idade: 33\n",
+            "Pode tirar habilitação\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Se for do sexo feminino (F), e tiver 55 anos ou mais, pode se aposentar, se o for do sexo masculino (M), e tiver 60 anos pode se aposentar.\n",
+        "\n",
+        "sexo = 'M'\n",
+        "idade = 68\n",
+        "if(sexo == 'F' and idade >=55):\n",
+        "  print('Pode se aposentar')\n",
+        "elif(sexo == 'M' and idade >=60):\n",
+        "  print('Pode se aposentar')\n",
+        "else:\n",
+        "  print('Ainda não pode')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qq3fV1y_rNpY",
+        "outputId": "ed097a51-8c42-4eb5-b507-e7fea3abfa1d"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Pode se aposentar\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "idade = int(input('Informe a idade: '))\n",
+        "sexo = input('informe o sexo: ')\n",
+        "if(sexo == 'F' and idade >=55) or (sexo == 'M' and idade >=60):\n",
+        "  print('Pode se aposentar!')\n",
+        "else:\n",
+        "  print('Ainda não pode')"
+      ],
+      "metadata": {
+        "id": "EQBynNORtfn0"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#solicite 3 nimeros A, B e C\n",
+        "#imprima na tela se A+B é maior que C\n",
+        "\n",
+        "A =int(input('Digite valor de A: '))\n",
+        "B =int(input('Digite valor de B: '))\n",
+        "C8 =int(input('Digite valor de C: '))\n",
+        "if(A+B < C):\n",
+        "  print('É MAIOR')\n",
+        "else:\n",
+        "  print('NÃO É MENOR!')\n",
+        " \n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "FaaIlJc_vbeD"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
