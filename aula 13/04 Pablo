@@ -1,0 +1,171 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPtu+mEWlv14XbKxnzK3R1I",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/lviniciuz/Aula-Junio/blob/main/aula%2013/04%20Pablo\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "_ZasNzCQt9Ol"
+      },
+      "outputs": [],
+      "source": [
+        "#criar uma lista com números de 1 a 15\n",
+        "numeros = []\n",
+        "for num in range(20):\n",
+        "  numeros.append(num)\n",
+        "  \n",
+        "numeros"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import random"
+      ],
+      "metadata": {
+        "id": "aqcbNOVnwNdi"
+      },
+      "execution_count": 18,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nums2 = []\n",
+        "for num in range(random.randrange(0, 50)):\n",
+        "  nums2.append(num)\n",
+        " \n",
+        "nums2"
+      ],
+      "metadata": {
+        "id": "NthJScDtwQOK"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"Digite um numero: \"))\n",
+        "if a%2 == 0:\n",
+        "  print ('É par')\n",
+        "else:\n",
+        "  print(\"É impar\")"
+      ],
+      "metadata": {
+        "id": "3sFDVkqYy4e3"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numPares = []\n",
+        "for num in range(51):\n",
+        "  if(num % 2 == 0):\n",
+        "    numPares.append(num)\n",
+        "\n",
+        "numPares"
+      ],
+      "metadata": {
+        "id": "y_e-C6eE26-L"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#retorne a soma dos números de 1 a 100\n",
+        "soma = 0\n",
+        "for n in range(101):\n",
+        "  soma = soma+n\n",
+        "\n",
+        "  soma\n"
+      ],
+      "metadata": {
+        "id": "4ITHO7vx3eMY"
+      },
+      "execution_count": 84,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#uso do while\n",
+        "\n",
+        "cont = 0\n",
+        "\n",
+        "while (cont < 10):\n",
+        "  print(cont +1)\n",
+        "  cont+=1"
+      ],
+      "metadata": {
+        "id": "aakI7s7I8oe9"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "cont = 0\n",
+        "numero = int(input('Digite um numero: '))\n",
+        "\n",
+        "while (cont <= numero):\n",
+        "  print(cont)\n",
+        "  cont+=1"
+      ],
+      "metadata": {
+        "id": "pP0s3R09BpKt"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#cria uma lista de compras, encerra caso digite 0.\n",
+        "comprasLista = []\n",
+        "\n",
+        "item = input('Digite o item: ')\n",
+        "\n",
+        "while (item != '0'):\n",
+        "  comprasLista.append(item)\n",
+        "  item = input('Digite o item: ')\n",
+        "comprasLista"
+      ],
+      "metadata": {
+        "id": "7YAGcl6SDinv"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
