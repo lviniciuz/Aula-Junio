@@ -1,0 +1,41 @@
+# Aulas-faculdade
+//calcular imc
+<?php
+
+$altura= 1.80;
+$peso= 60;
+$imc= $peso/$altura*$altura;
+if ($imc<18.5){
+echo "Abaixo do peso";}
+elseif ($imc<24.9){
+echo "Peso ideal";}
+elseif ($imc<29.9){
+echo "Acima do peso";}
+else{
+echo "Obesidade";}
+
+?>
+
+//calcular valor de baskara
+<?php
+$a=2; $b=5; $c=2;
+$delta = ($b*$b)-((4*$a)*$c);
+$x1 = (-$b + sqrt ($delta)) / (2 * $a);
+$x2 = (-$b - sqrt ($delta)) / (2 * $a);
+echo
+$x1, $x2
+?>
+
+//Saber se o valor é impar
+<?php
+
+$valor=8;
+if ($valor%2==0){
+for($i=0;$i<$valor;$i++){  
+}
+echo"O valor é par:";
+echo$valor;
+}else{
+    echo"O valor é ímpar";
+}
+?>
