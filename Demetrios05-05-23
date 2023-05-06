@@ -1,0 +1,49 @@
+<?php
+$valor=3;
+for($i=0;$i<$valor;$i++){
+    for($j=0;$j<=$i;$j++){
+        echo"FPB";
+    }
+    echo"<br>";
+}
+?>
+
+<?php
+$valor=1200;
+$juros=$valor*0.12;
+$total=$valor+$juros;
+$parcela=$total/12;
+echo$total."<br>";
+echo$parcela;
+
+?>
+
+<?php
+$valor1=5;
+$valor2=10;
+$resultado=($valor1+$valor2)*($valor2/2);
+echo($resultado)
+
+?>
+
+<?php
+
+$valor=100;
+$acao=($valor*15)/100;
+echo($acao)
+
+?>
+
+<?php
+$diasvida=1500;
+$resultado=$diasvida/365;
+
+echo("<br>");
+echo number_format($resultado,0,);  
+
+if ($resultado>=18){
+    echo" Maior de idade!";
+}else{
+    echo" Menor de idade!";
+}
+?>
